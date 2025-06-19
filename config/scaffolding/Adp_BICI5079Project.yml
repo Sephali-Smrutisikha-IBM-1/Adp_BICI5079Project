@@ -7,3 +7,62 @@ packages:
   gitUrl: https://github.com/Sephali-Smrutisikha-IBM-1
   gitUsername: Sephali-Smrutisikha-IBM-1
   gitBranch: main
+- name: WmJDBCAdapter
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
+services:
+- serviceName: project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database
+  packages:
+  - name: Adp_BICI5079Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+configurationVariables:
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.networkProtocol
+  : ""
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.user
+  : JDBC_BVT
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.heartBeatInterval
+  : "0"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.startupBackoffSecs
+  : "10"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.minimumPoolSize
+  : "1"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.maximumPoolSize
+  : "10"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.dbType
+  : ORACLE
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.startupRetryCount
+  : "0"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.portNumber
+  : "1521"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.otherProperties
+  : ""
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.password
+  : "{AES}gOk3wygfWVjWqDc4SLehnQ=="
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.driverType
+  : Progress® DataDirect®
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.poolable
+  : "false"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.trustStore
+  : ""
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.poolIncrementSize
+  : "1"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.expireTimeout
+  : "1000"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.databaseName
+  : ORCL
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.transactionType
+  : LOCAL_TRANSACTION
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionEnabled
+  : "false"
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.keyStore
+  : ""
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.serverName
+  : adapter-oracle-121-on-amazonrds.cdmjexwbzoym.us-east-1.rds.amazonaws.com
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionSettings.datasourceClass
+  : com.wm.dd.jdbcx.oracle.OracleDataSource
+  ? artConnection.Adp_BICI5079Project.project.adp_bici5079.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database.connectionManagerSettings.blockingTimeout
+  : "1000"
